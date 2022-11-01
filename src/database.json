@@ -1,0 +1,70 @@
+[
+   {
+        "id": "0",    
+        "name": "Masterclass M° Bufalini 2021",
+        "date": "Autunno 2021",
+        "description": "L'associazione Ludi Sonores presenta la seconda edizione della masterclass di direzione d'orchestra del M° Marcello Bufalini. I partecipanti lavoreranno con un'orchestra dal vivo affiancati da un grande didatta della direzione d'orchestra.",
+        "repertoire": [
+          "C.NIELSEN : Kleine Suite op. 1 per archi",
+          "F. MENDELSSOHN : Sinfonia per archi n. 10 in si minore",
+          "L. JANÁCEK : Suite per archi",
+          "L. BOCCHERINI : Sinfonia in re minore op. 12 n. 4 “La casa del diavolo”",
+          "J. HAYDN : Sinfonie nn. 42, 55, 66, 67, 68, 83 “La gallina”, 87",
+          "W.A MOZART : Sinfonie KV 201, KV 319, KV 550; da Le nozze di Figaro “E Susanna non vien”, “Giunse alfine il momento”; da Così fan tutte: duetto “Prenderò quel brunettino”",
+          "F. SCHUBERT : Sinfonia n. 5"
+        ],
+        "imageID": "1-ZollYWW8zT37bfjGOIQvEqSjQDgd5gN",
+        "slug" : "masterclass2021"
+
+    },
+    {   
+        "id": "1",
+        "name": "Masterclass M° Bufalini 2020",
+        "date": "Ottobre 2021",
+        "description": "L'associazione Ludi Sonores, in collaborazione con la Scuola di musica Sylvestro Ganassi, organizza la masterclass di direzione d'orchestra del M° Marcello Bufalini. I partecipanti avranno la possibilità di dirigere la Ludi Sonores orchestra dal vivo con repertorio sinfonico e operistico.",
+        "repertoire": [
+          "J. HAYDN Sinfonie nn. 45, 49, 84, 89, 91",
+          "W.A MOZART Sinfonie KV 201, KV 319, KV 550; da Le nozze di Figaro “E Susanna non vien”, “Giunse alfine il momento”; da Così fan tutte: duetto “Prenderò quel brunettino”",
+          "F. SCHUBERT Sinfonia n. 5",
+          "P. TCHAIKOVSKY Serenata per archi",
+          "B. BRITTEN Simple Symphony",
+          "E. ELGAR Serenata per archi",
+          "W.A. MOZART Divertimento KV 136, Sinfonie KV 22, 201, 319, 550"
+        ],
+        "imageID": "1AQbHtsqJL-EtqtkCkYkIY52PtU43nWX2",
+        "slug" : "masterclass2020"
+        
+      },
+      {
+        "id": "2",
+        "name": "Il giovane Mozart",
+        "date": "30 Giugno 2019",
+        "description": "L'orchestra Ludi Sonores debutta con un concerto sul bambino prodigio. Propone un programma tratto dalle opere giovanili del più famoso compositore austriaco.",
+        "repertoire": [
+          "FLAUTO : Giulia Pedone",
+          "ARPA : Chiara Santoro",
+          "W.A MOZART : Sinfonia n. 5 K22, Sinfonia n. 29 K201, Concerto per flauto e arpa K299"
+        ],
+        "imageID": "1bn4MkmescUfxNAZdzqE-B1DNmJVtznvH",
+        "slug" : "ilgiovanemozart"
+      },
+
+      {
+        "id": "3",
+        "name": "Natale all'Opera",
+        "date": "22 Dicembre 2019",
+        "description": "Ludi Sonores festeggia con voi il Natale con alcune delle più famose arie d'opera tratte dal repertorio di Mozart, Puccini, Donizetti e Bellini e una selezione di brani natalizi arrangiati per orchestra da camera.",
+        "repertoire": [
+          "SOPRANO : Sofya Yuneeva",
+          "MEZZOSOPRANO : Maria Elena Pepi",
+          "BARITONO : Giacomo Nanni",
+          "V. BELLINI : Adelson e Salvini: \"Dopo l'oscuro nembo\"",
+          "G. DONIZETTI : Lucrezia Borgia: \"Il segreto per esser felici\"",
+          "W.A MOZART : Don Giovanni: \"Madamina, il catalogo è questo\", \"Là ci darem la mano\" Le nozze di Figaro: \"Non più andrai farfallone amoroso, Così fan tutte: \"Il core vi dono\", \"Soave sia il vento",
+          "G. PUCCINI : La Bohème: \"Sì. Mi chiamano Mimì\", \"Quando me'n vo'\""
+        ],
+        "imageID": "1n0aDmdegLKg2bEOrCTKDWKHaj3BM9IbI",
+        "slug" : "nataleall'opera"
+      }
+
+    ]

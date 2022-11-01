@@ -1,13 +1,822 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --black: #080500;
+  --gray: #8D8D8D;
+  --darkGray: #454545;
+  --white: #fff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Butler Stencil';
+  src: url("./fonts/Butler_Regular_Stencil.otf");
+  font-size: normal;
+}
+@font-face {
+  font-family: 'Butler Stencil';
+  src: url("./fonts/Butler_Medium_Stencil.otf");
+  font-size: medium;
+}
+@font-face {
+  font-family: 'Butler Stencil';
+  src: url("./fonts/Butler_Light_Stencil.otf");
+  font-size: light;
+}
+
+html, body {
+  font-family:"Butler Stencil", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background-color: var(--black);
+}
+/* -----------------------------------------------------------------------------HEADER */
+header{
+  margin-bottom: 200px;
+}
+
+.imagebg {
+  background-image: url("./images/Ludi_Sonores_orchestraHeader_.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+
+
+.nav-link{
+  color: var(--white);
+}
+.navbar-nav{
+  font-size: 2.0em;
+
+
+}
+.nav-item{
+  padding-left: 80px;
+  padding-top: 10px;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(231, 230, 230)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: none;
+} 
+
+.ludi-logo{
+  position:inherit;
+  margin-left: 350px;
+  margin-top: 40px;
+  filter: drop-shadow(0px 5px 4px #362E05);
+  width: 28%;
+
+}
+
+.header-frase{
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header-frase h2{
+  font-size: 5.0vh;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width:768px){
+
+  header{
+    margin-bottom: 90px;
+  }
+
+  .header-frase h2{
+    font-size: 22px;
+    padding-left: 8px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+  }
+
+  .ludi-logo{
+    position:inherit;
+    margin-left: 90px;
+    margin-top: 60px;
+    filter: drop-shadow(0px 5px 4px #362E05);
+    width: 50%;
+  
+  }
+}
+
+#ezio-para{
+  font-size: 50px;
+}
+/* -----------------------------------------------------------BANDOBUTTON */
+
+.bandobutton-section{
+  margin-bottom: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+ 
+
+}
+
+.mobile-button{
+  display: none;
+}
+.hr5{
+  width: 80%;
+  margin: auto;
+  border:  4px solid gray;
+  margin-bottom: 80px;
+}
+
+
+
+.bando-button{
+
+  font-family: 'Khand', sans-serif;
+  width: 30%;
+  font-size: 2vw;
+  filter: drop-shadow(20px 20px 1px #454545);
+
+}
+
+@media screen and (max-width: 768px)
+{
+  .bandobutton-section{
+
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  
+  }
+  .bando-button{
+  
+    font-family: 'Khand', sans-serif;
+    width: 30%;
+    font-size: 25px;
+    
+  
+  }
+}
+/* --------------------------------------------------------EVENTI */
+
+.eventi-section{
+  margin-bottom: 90px;
+}
+
+.eventi-row{
+  margin-bottom: 100px;
+}
+
+.section-title{
+  font-size: 7vh;
+  margin-bottom: 100px;
+}
+
+.card{
+  width: 80%;
+  color: #080500;
+  filter: drop-shadow(20px 20px 1px #454545fa);
+  margin-bottom: 60px;
+}
+
+.card-title{
+  font-size: 4vh;
+  font-weight:600;
+  
+}
+.card-text{
+  font-size: 2vh;
+  font-weight: bold;
+}
+
+.btn{
+  width: 40%;
+  padding: 15px;
+  font-size: 27px;
+}
+/* ----------------------------------------------CHI SIAMO */
+
+.imgbgchiamo{
+  margin-top: 200px;
+  background-image: url("./images/chisiamo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 120vh;
+}
+
+#chisiamo-title{
+  font-size: 4.7vw;
+  padding-left: 25px;
+}
+
+#chisiamo-para{
+  font-size: 3vh;
+  padding-left: 25px;
+}
+
+#chisiamo-btn{
+  width: 50%;
+  font-size: 5vh;
+  font-family: 'Khand', sans-serif;
+  filter: drop-shadow(20px 20px 1px #454545);
+}
+
+.btn-col{
+  margin-bottom: 100px;
+  
+}
+
+.hr5chisiamo{
+  width: 80%;
+  margin: auto;
+  border:  4px solid gray;
+  margin-bottom: 80px;
+  margin-top: 180px;
+}
+
+/* ----------------------------------------------------MASTERCLASS2022 */
+
+.bgimagemasterclass{
+  margin-top: 150px;
+  background-image: url("./images/DSC_7000.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 120px;
+  box-shadow: inset 0px 30px 50px #000000, inset 0px -150px 150px #000000;
+}
+
+.masterclass-title{
+  font-size: 4.7vw;
+  margin-top: -200px;
+}
+
+#masterclass-para{
+  font-size: 3.5vh;
+  padding-left: 18px;
+}
+
+#masterclass-btn{
+  width: 60%;
+  font-size: 3.5vh;
+  font-family: 'Khand', sans-serif;
+  filter: drop-shadow(20px 20px 1px #454545);
+
+}
+
+/* --------------------------------------------------------------CONTATTI */
+
+
+
+.form-div{
+  padding-top: 400px;
+  padding-bottom: 40px;
+}
+
+.form-section{
+  padding: 25px;
+}
+.form1{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 15px;
+}
+.form2{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 15px;
+}
+.form3{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 20%;
+}
+#submit-bottom{
+  background: #f6f6f6;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 23px;
+  border: none;
+  font-size: 13px;
+  font-weight: 900;
+  padding: 18px;
+  width: 250px; 
+}
+
+.info-para{
+  font-size: 3.5vh;
+}
+
+#btn-preven-btn{
+  font-size: 4vh;
+  padding: 24px;
+  border-radius: 30px;
+  color: #8D8D8D;
+  background-color: #000000;
+}
+
+#btn-preven-btn:hover{
+  font-size: 4vh;
+  padding: 24px;
+  border-radius: 30px;
+  color: #eaeaea;
+  background-color: #000000;
+}
+
+
+/* -------------------------------------------FOOOTER */
+.link-utili{
+  font-family: 'Khand', sans-serif;
+  flex-direction: column;
+  text-align: center;
+ 
+}
+.link-utili h2{
+  font-size: 5vh;
+}
+
+.link-utili span{
+  font-size: 2vh;
+}
+
+.social-icon i{
+  font-size: 5vh;
+  padding-left: 40px;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+/* a:visited { color: var(--light-blue); }
+a:hover { color: var(--light-blue); }
+a:active { color: var(--light-blue); } */
+
+.bg-evento{
+  background-image: url("./images/scott-kelley--vNLZFT8Kcg-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  box-shadow: inset 0px 100px 40px #000000a6, inset 0px -150px 150px #000000;
+  margin-bottom: -350px;
+}
+
+.pagina-eventi-bg{
+  background-image: url("./images/DSC_6518.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  box-shadow: inset 0px 30px 50px #000000, inset 0px -150px 150px #000000;
+}
+
+.pagina-eventi-section{
+  display: flex;
+  justify-content: center;
+
+}
+
+.eventi-section-2{
+  margin-top: 200px;
+
+
+}
+
+.eventi-section-2 h2 {
+  font-size: 9vh;
+  
+ 
+}
+.eventi-section-2 h3 {
+  font-size: 6vh;
+}
+
+.bando-button-2{
+  font-size: 3.5vh;
+  font-family: 'Khand', sans-serif;
+  filter: drop-shadow(20px 20px 1px #454545);
+  height: 200px;
+  margin: auto;
+  margin-bottom: 200px;
+}
+
+.pagina-chisiamo-bg{
+  background-image: url("./images/DSC_6466.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  box-shadow: inset 0px 30px 50px #000000, inset 0px -150px 150px #000000;
+ 
+}
+
+#pagina-chisiamo-title{
+  text-align: center;
+  font-size: 7vh;
+  margin-top: 200px;
+
+}
+
+#pagina-chisiamo-description{
+  text-align: center;
+  font-size: 3vh;
+  padding: 90px;
+}
+
+.programma{
+  font-size: 5vh;
+  margin-top: 0px;
+}
+.repertorio{
+  text-align: center;
+  font-size: 4vh;
+  padding: 40px;
+}
+
+iframe{
+  width: 100%;
+  height: 100vh;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 400px){
+
+  /* -----------------------------------------------------------------------------HEADER */
+header{
+  margin-bottom: 80px;
+}
+
+.imagebg {
+  background-image: url("./images/Ludi_Sonores_orchestraHeader_.jpg");
+  background-repeat: no-repeat;
+  height: 300px;
+  background-position: center;
+  
+  
+}
+
+.navbar-collapse{
+  margin-left: 250px;
+  text-align: left;
+  
+  
+  
+}
+
+.nav-link{
+  color: var(--white);
+}
+.navbar-nav{
+  font-size: 1.1em;
+  position: absolute;
+  background-color: #080500;
+  
+  
+
+
+}
+.nav-item{
+  padding-right: 0px;
+  padding-top: 10px;
+  padding-left: 0px;
+  
+  
+}
+
+.ludi-logo{
+  position:inherit;
+  margin-left: 100px;
+  margin-top: 20px;
+  filter: drop-shadow(0px 5px 4px #362E05);
+  width: 28%;
+
+}
+
+.header-frase{
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header-frase h2{
+  font-size: 14px;
+  max-width: 60%;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#ezio-para{
+  font-size: 12px;
+}
+
+.bandobutton-section{
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+
+}
+.bando-button{
+
+  font-size: 14px;
+  font-family: 'Khand', sans-serif;
+  height: 70px;
+  filter: drop-shadow(10px 10px 1px #454545);
+
+}
+
+.ludiL{
+  width: 20%;
+}
+
+#eventi-title{
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+.eventi-row{
+  margin-bottom: 0px;
+}
+
+.card-btn{
+  width: 100%;
+}
+
+.row{
+  margin-bottom: 0px;
+}
+
+.card{
+  filter: drop-shadow(10px 10px 1px #454545);
+  margin-bottom: 0px;
+}
+
+
+
+
+.imgbgchiamo{
+  background-image: url("./images/chisiamo.png");
+  background-repeat: no-repeat;
+  height: 300px;
+  background-position: center;
+  margin-top: 0px;
+  margin-bottom: 180px;
+  display: flex;
+  flex-direction: column;
+  
+}
+#chisiamo-title{
+  font-size: 22px;
+  padding-left: 25px;
+  text-align: center;
+  margin-top: 220px;
+}
+
+#chisiamo-para{
+  font-size: 14px;
+  padding-left: 25px;
+
+}
+
+#chisiamo-btn{
+  font-size: 14px;
+  font-family: 'Khand', sans-serif;
+  height: 30px;
+  filter: drop-shadow(10px 10px 1px #454545);
+  
+  
+}
+
+.btn-col{
+  position: absolute;
+  top:4150px;
+  
+}
+
+.bgimagemasterclass{
+  background-image: url("./images/DSC_7000.jpg");
+  background-repeat: no-repeat;
+  height: 500px;
+  background-position: center;
+  margin-bottom: 160px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#masterclass-para{
+  font-size: 14px;
+  padding-top: 40px;
+  padding-left: 0px;
+  padding-right: 0px;
+  text-align: left;
+  margin-left: -80px;
+  width: 100%;
+  
+  
+}
+.masterclass-title{
+  margin-bottom: 170px;
+}
+
+#masterclass-btn{
+  font-size: 14px;
+  font-family: 'Khand', sans-serif;
+  height: 30px;
+  position: absolute;
+  filter: drop-shadow(10px 10px 1px #454545);
+
+}
+
+.section-title{
+  font-size: 22px;
+}
+
+.footer-section{
+  display: flex;
+  flex-direction: column;
+}
+
+.link-utili{
+  font-family: 'Khand', sans-serif;
+  flex-direction: column;
+  text-align: center;
+ 
+}
+.link-utili h2{
+  font-size: 5vh;
+}
+
+.link-utili span{
+  font-size: 2vh;
+}
+
+.social-icon i{
+  font-size: 3vh;
+  padding-left: 0px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+#logo-ludi{
+  width: 40%;
+  margin-bottom: 10px;
+}
+
+/* ------------------------------------------------------ EVENTI*/
+.pagina-eventi-bg{
+  background-image: url("./images/DSC_6518.jpg");
+  background-repeat: no-repeat;
+  height: 300px;
+  background-position: center;
+  box-shadow: inset 0px 0px 0px #000000, inset 0px -20px 60px #000000;
+  margin-bottom: 100px;
+}
+
+/* -----------------------------ORCHESTRA */
+
+.pagina-chisiamo-bg{
+  background-image: url("./images/DSC_6466.jpg");
+  background-repeat: no-repeat;
+  height: 300px;
+  background-position: center;
+  box-shadow: inset 0px 0px 0px #000000, inset 0px -20px 60px #000000;
+  margin-bottom: 100px;
+}
+
+#pagina-chisiamo-title{
+  text-align: center;
+  font-size: 5vh;
+  margin-top: 200px;
+
+}
+
+#pagina-chisiamo-description{
+  text-align: left;
+  font-size: 3vh;
+  padding: 40px;
+}
+
+/* -------------------------- BANDO */
+
+.pdf-file{
+  margin-top: 100px;
+}
+
+.mobile-button{
+  display: inherit;
+  
+}
+.bando-title{
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+a{
+  text-decoration: none;
+  
+  
+}
+
+iframe{
+  display: none;
+}
+
+/* ----------------------CONTATTI */
+
+.bg-evento{
+  background-image: url("./images/scott-kelley--vNLZFT8Kcg-unsplash.jpg");
+  background-repeat: no-repeat;
+  height: 300px;
+  background-position: center;
+  box-shadow: inset 0px 0px 0px #000000, inset 0px -50px 60px #000000;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.form-div{
+  padding-top: 150px;
+  padding-bottom: 40px;
+}
+
+.form-section{
+  
+}
+.form1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0px;
+  padding-bottom: 0px;
+}
+.form2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0px;
+  padding-bottom: 0px;
+}
+.form3{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+}
+#submit-bottom{
+  margin-top: 20px;
+  background: #f6f6f6;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 23px;
+  border: none;
+  font-size: 13px;
+  font-weight: 900;
+  padding: 18px;
+  width: 250px; 
+}
+
+.info-para{
+  font-size: 2.5vh;
+}
+
+#btn-preven-btn{
+  font-size: 2.5vh;
+  padding: 24px;
+  border-radius: 30px;
+  color: #c6c4c4;
+  background-color: #000000;
+}
+
+/* --------------------------EVENTI IN DETTAGLIO */
+
+.eventi-section-2{
+  margin-top: 100px;
+  padding: 20px;
+
+}
+
+.eventi-section-2 h2 {
+  font-size: 9vh;
+  
+ 
+}
+.eventi-section-2 h3 {
+  font-size: 6vh;
+}
+
+
+
 }
