@@ -5,8 +5,8 @@ import logo from "../images/Livello 1 copia.png"
 function PaginaChiSiamo() {
   return (
     <>
-      <div className="pagina-chisiamo-bg">
         <Navbar />
+      <div className="pagina-chisiamo-bg" data-aos="fade-up">
         <img src={logo} className="ludi-logo" alt="ludisonoreslogo"/>
         <h1 id="pagina-chisiamo-title">Chi Siamo</h1>
       </div>

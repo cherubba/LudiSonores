@@ -8,8 +8,8 @@ function PaginaEventi () {
 
     return(
         <>
-            <div className="pagina-eventi-bg"> 
             <Navbar />
+            <div className="pagina-eventi-bg" data-aos="fade-up"> 
             <div>
             <img src={logo} className="ludi-logo" alt="ludisonoreslogo"/>
             <div className="text-center eventi-section-2"><h2 id="eventi-title">Eventi</h2></div>

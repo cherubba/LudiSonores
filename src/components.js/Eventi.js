@@ -20,8 +20,8 @@ function Eventi(){
 
 
     return(
-        <div className="container-fluid">
-        <div className="row eventi-row">
+        <div className="container-fluid" data-aos="fade-up" >
+        <div className="row eventi-row" >
             {cardElements}
     </div>
     </div>

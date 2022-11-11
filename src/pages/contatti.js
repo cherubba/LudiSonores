@@ -6,8 +6,8 @@ function Contatti () {
     return (
         <>
         
-        <div className="bg-evento">
         <Navbar />
+        <div className="bg-contatti" data-aos="fade-up">
         <img src={logo} className="ludi-logo" alt="ludisonoreslogo"/>
         <h1 id="pagina-chisiamo-title">Contatti</h1>
       

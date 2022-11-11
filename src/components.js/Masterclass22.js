@@ -1,7 +1,7 @@
 function Masterclass22() {
   return (
     <>
-    <div className="container-fluid">
+    <div className="container-fluid" data-aos="fade-up">
       <div className="row bgimagemasterclass d-flex justify-content-end align-items-center">
             <h2 className="masterclass-title text-center">Masterclass Direzione 2022</h2>
         <div className="col-6">

@@ -48,6 +48,7 @@ header{
 }
 .navbar-nav{
   font-size: 2.0em;
+  z-index: 999;
 
 
 }
@@ -141,8 +142,22 @@ header{
   width: 30%;
   font-size: 2vw;
   filter: drop-shadow(20px 20px 1px #454545);
+  
+  transition: width  200ms ease-out 100ms;
 
 }
+
+.bando-button:hover{
+  width: 600px;
+}
+
+.link-style{
+  color: #000000;
+}
+.link-style:hover{
+  color: rgb(43, 43, 43);
+}
+
 
 @media screen and (max-width: 768px)
 {
@@ -371,6 +386,16 @@ a:active { color: var(--light-blue); } */
   background-position: center;
   height: 100vh;
   box-shadow: inset 0px 100px 40px #000000a6, inset 0px -150px 150px #000000;
+  margin-bottom: -350px;
+}
+
+.bg-contatti{
+  background-image: url("./images/scott-kelley--vNLZFT8Kcg-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  box-shadow: inset 0px 40px 40px #000000, inset 0px -150px 150px #000000;
   margin-bottom: -350px;
 }
 
@@ -603,7 +628,7 @@ header{
 
 .btn-col{
   position: absolute;
-  top:4150px;
+  top:370px;
   
 }
 
@@ -738,15 +763,17 @@ iframe{
 
 /* ----------------------CONTATTI */
 
-.bg-evento{
+.bg-contatti{
   background-image: url("./images/scott-kelley--vNLZFT8Kcg-unsplash.jpg");
   background-repeat: no-repeat;
   height: 300px;
   background-position: center;
-  box-shadow: inset 0px 0px 0px #000000, inset 0px -50px 60px #000000;
+  box-shadow: inset 0px 10px 10px #000000, inset 0px -50px 60px #000000;
   margin-bottom: 0px;
   margin-top: 0px;
 }
+
+
 
 .form-div{
   padding-top: 150px;

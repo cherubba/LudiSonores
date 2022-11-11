@@ -8,8 +8,8 @@ function BandoMasterclass2022 () {
     return(
         <>
         <Navbar />
-        <h2 className="text-center mobile-button bando-title">Scarica qui il nuovo Bando</h2>
-        <div className="container pdf-file">
+        <h2 className="text-center mobile-button bando-title" >Scarica qui il nuovo Bando</h2>
+        <div className="container pdf-file" data-aos="fade-up">
         <div className="button-wrapper mobile-button">
         <BandoButton />
         </div>
