@@ -42,9 +42,12 @@ header{
 }
 
 
-
 .nav-link{
-  color: var(--white);
+  color: white;
+}
+
+.nav-link:hover{
+  color: #D6B01A;
 }
 .navbar-nav{
   font-size: 2.0em;
@@ -56,6 +59,8 @@ header{
   padding-left: 80px;
   padding-top: 10px;
 }
+
+
 
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(231, 230, 230)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -69,7 +74,7 @@ header{
   position:inherit;
   margin-left: 350px;
   margin-top: 40px;
-  filter: drop-shadow(0px 5px 4px #362E05);
+  filter: drop-shadow(0px 5px 4px #8d6c01);
   width: 28%;
 
 }
@@ -111,6 +116,7 @@ header{
 
 #ezio-para{
   font-size: 50px;
+  color: #D6B01A;
 }
 /* -----------------------------------------------------------BANDOBUTTON */
 
@@ -130,7 +136,7 @@ header{
 .hr5{
   width: 80%;
   margin: auto;
-  border:  4px solid gray;
+  border:  4px solid #bba758;
   margin-bottom: 80px;
 }
 
@@ -141,7 +147,7 @@ header{
   font-family: 'Khand', sans-serif;
   width: 30%;
   font-size: 2vw;
-  filter: drop-shadow(20px 20px 1px #454545);
+  filter: drop-shadow(20px 20px 1px #8d6c01);
   
   transition: width  200ms ease-out 100ms;
 
@@ -197,7 +203,7 @@ header{
 .card{
   width: 80%;
   color: #080500;
-  filter: drop-shadow(20px 20px 1px #454545fa);
+  filter: drop-shadow(20px 20px 3px #988239);
   margin-bottom: 60px;
 }
 
@@ -241,7 +247,13 @@ header{
   width: 50%;
   font-size: 5vh;
   font-family: 'Khand', sans-serif;
-  filter: drop-shadow(20px 20px 1px #454545);
+  filter: drop-shadow(20px 20px 1px #8d6c01);
+  transition: width  200ms ease-out 100ms;
+}
+
+#chisiamo-btn:hover{
+  
+width: 500px;
 }
 
 .btn-col{
@@ -252,7 +264,7 @@ header{
 .hr5chisiamo{
   width: 80%;
   margin: auto;
-  border:  4px solid gray;
+  border:  4px solid #e7b204;
   margin-bottom: 80px;
   margin-top: 180px;
 }
@@ -284,8 +296,13 @@ header{
   width: 60%;
   font-size: 3.5vh;
   font-family: 'Khand', sans-serif;
-  filter: drop-shadow(20px 20px 1px #454545);
+  filter: drop-shadow(20px 20px 1px #8d6c01);
+  transition: width  200ms ease-out 100ms;
 
+}
+
+#masterclass-btn:hover{
+  width: 600px;
 }
 
 /* --------------------------------------------------------------CONTATTI */
@@ -351,6 +368,11 @@ header{
 
 
 /* -------------------------------------------FOOOTER */
+
+.footer-part{
+  margin-bottom: 35px;
+}
+
 .link-utili{
   font-family: 'Khand', sans-serif;
   flex-direction: column;
@@ -560,7 +582,7 @@ header{
   font-size: 14px;
   font-family: 'Khand', sans-serif;
   height: 70px;
-  filter: drop-shadow(10px 10px 1px #454545);
+  filter: drop-shadow(10px 10px 1px #8d6c01);
 
 }
 
@@ -579,14 +601,18 @@ header{
 
 .card-btn{
   width: 100%;
+
 }
+
+
+
 
 .row{
   margin-bottom: 0px;
 }
 
 .card{
-  filter: drop-shadow(10px 10px 1px #454545);
+  filter: drop-shadow(10px 10px 1px #8d6c01);
   margin-bottom: 0px;
 }
 
@@ -621,7 +647,7 @@ header{
   font-size: 14px;
   font-family: 'Khand', sans-serif;
   height: 30px;
-  filter: drop-shadow(10px 10px 1px #454545);
+  filter: drop-shadow(10px 10px 1px #8d6c01);
   
   
 }
@@ -664,7 +690,7 @@ header{
   font-family: 'Khand', sans-serif;
   height: 30px;
   position: absolute;
-  filter: drop-shadow(10px 10px 1px #454545);
+  filter: drop-shadow(10px 10px 1px #8d6c01);
 
 }
 
@@ -829,6 +855,17 @@ iframe{
 
 /* --------------------------EVENTI IN DETTAGLIO */
 
+
+.bg-evento{
+  background-image: url("./images/scott-kelley--vNLZFT8Kcg-unsplash.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  box-shadow: inset 0px 100px 40px #000000a6, inset 0px -150px 150px #000000;
+  margin-bottom: -350px;
+}
+
 .eventi-section-2{
   margin-top: 100px;
   padding: 20px;
@@ -844,6 +881,24 @@ iframe{
   font-size: 6vh;
 }
 
+/* ----------------------Footer */
+
+.social-icon{
+  gap: 50px;
+  margin-bottom: 12px;
+}
+
+.link-utili{
+  margin-bottom: 20px;
+}
+
+.link-utili span{
+  margin-top: 10px;
+}
+
+#logo-ludi{
+  margin-left: 110px;
+}
 
 
 }

@@ -1,4 +1,17 @@
 [
+  {
+    "id": "4",
+    "name": "Natale all'Opera",
+    "date": "22 Dicembre 2022",
+    "description": "Ludi Sonores festeggia con voi il Natale con alcune delle più famose arie d'opera tratte dal repertorio di Mozart, Puccini, Donizetti e Bellini e una selezione di brani natalizi arrangiati per orchestra da camera.",
+    "repertoire": [
+      "SOPRANO : Giulia Ferraldeschi",
+      "MEZZOSOPRANO : Alessia Martuscelli",
+      "Direttore : Andrea Rossi"
+    ],
+    "imageID": "1L9ycYTM7YfOVvf9Ih9NkIsPyXo7_2-hp",
+    "slug" : "nataleall'opera22"
+  },
    {
         "id": "0",    
         "name": "Masterclass M° Bufalini 2021",
@@ -66,5 +79,7 @@
         "imageID": "1n0aDmdegLKg2bEOrCTKDWKHaj3BM9IbI",
         "slug" : "nataleall'opera"
       }
+
+      
 
     ]

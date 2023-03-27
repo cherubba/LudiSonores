@@ -6,6 +6,7 @@ import PaginaChiSiamo from './pages/paginaChiSiamo';
 import PaginaEventiDettaglio from './pages/paginaEventiDettaglio';
 import BandoMasterclass2022 from './pages/bandoMasterclass2022';
 import Contatti from './pages/contatti';
+import Grazie from './pages/grazie';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path='/bandoMasterclass2022' element={<BandoMasterclass2022 />}/>
         <Route path='/contatti' element={<Contatti/>}/>
         <Route path='/eventi/:slug' element={<PaginaEventiDettaglio/>}/>
+        <Route path='/grazie' element={<Grazie/>}/>
       </Routes>
         
     </div>

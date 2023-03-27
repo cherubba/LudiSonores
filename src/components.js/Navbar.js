@@ -20,25 +20,25 @@ function Navbar() {
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav m-auto p-3">
                   <li class="nav-item">
-                    <Link to="/"><p class="nav-link link-light " aria-current="page">
+                    <Link to="/"><p class="nav-link " aria-current="page">
                       home
                     </p></Link>
                   </li>
                   <li class="nav-item">
-                    <Link to ="/eventi"><p class="nav-link link-light">
+                    <Link to ="/eventi"><p class="nav-link ">
                       eventi
                     </p></Link>
                   </li>
                   <li class="nav-item">
-                    <Link to ='/chisiamo'><p class="nav-link link-light">
+                    <Link to ='/chisiamo'><p class="nav-link ">
                       orchestra
                     </p></Link>
                   </li>
                   <li class="nav-item">
-                    <Link to='/bandoMasterclass2022'><p class="nav-link link-light">bando Masterclass 2022</p></Link>
+                    <Link to='/bandoMasterclass2022'><p class="nav-link ">bando Masterclass 2022</p></Link>
                   </li>
                   <li class="nav-item">
-                    <Link to='/contatti'><p class="nav-link link-light">contatti</p></Link>
+                    <Link to='/contatti'><p class="nav-link">contatti</p></Link>
                   </li>
                 </ul>
               </div>

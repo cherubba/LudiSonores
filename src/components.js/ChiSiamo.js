@@ -7,7 +7,7 @@ function ChiSiamo(){
         <div className="container-fluid" data-aos="fade-up">
             <div className="row imgbgchiamo align-items-end">
                 <div className="col ">
-                    <h2 id="chisiamo-title">Ludi Sonores Orechestra</h2>
+                    <h2 id="chisiamo-title">Orchestra Ludi Sonores</h2>
                     <p id="chisiamo-para">L'associazione Ludi Sonores nasce 
                     dal desiderio dei maestri Andrea Rossi e 
                     Claudio Aiello di creare una realtà musicale 
