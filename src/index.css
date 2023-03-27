@@ -126,6 +126,7 @@ header{
   flex-direction: row;
   justify-content: center;
   gap: 40px;
+  
  
 
 }
@@ -164,6 +165,10 @@ header{
   color: rgb(43, 43, 43);
 }
 
+.discover{
+ text-align: center;
+}
+
 
 @media screen and (max-width: 768px)
 {
@@ -192,7 +197,7 @@ header{
 }
 
 .eventi-row{
-  margin-bottom: 100px;
+  margin-bottom: -80px;
 }
 
 .section-title{

@@ -4,7 +4,7 @@ import database from "../database.json"
 function Eventi(){
 
 
-    const cardElements = database.map(el =>{
+    const cardElements = database.slice(0, 4).map(el =>{
         return <div className="col-md-6 d-flex justify-content-center my-5 py-5 section-card"><div className="card">
         <img src={`https://drive.google.com/uc?id=${el.imageID}`} className="card-img-top" alt="..."/>
         <div className="card-body">
@@ -24,6 +24,9 @@ function Eventi(){
         <div className="row eventi-row" >
             {cardElements}
     </div>
+    {/* <div className='discover'>
+    <Link to ={`/eventi`}><p className="btn btn-dark">Scopri tutti gli eventi</p></Link>
+    </div> */}
     </div>
     )
 }

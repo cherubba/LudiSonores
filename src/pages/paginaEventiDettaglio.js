@@ -2,9 +2,13 @@ import database from "../database.json"
 import {useParams} from "react-router-dom"
 import Navbar from "../components.js/Navbar"
 import Footer from "../components.js/Footer"
-
+import { useEffect } from "react"
 
 function PaginaEventiDettaglio (){
+
+    useEffect(() => {
+        window.scrollTo(0, 0); // scrolla all'inizio della pagina quando il componente viene montato
+      }, []);
 
     const {slug} = useParams()
     const thisEvent = database.find(el => el.slug === slug)
