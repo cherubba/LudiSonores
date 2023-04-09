@@ -648,7 +648,7 @@ header{
 }
 
 #chisiamo-btn{
-  font-size: 14px;
+  font-size: 18px;
   font-family: 'Khand', sans-serif;
   height: 30px;
   filter: drop-shadow(10px 10px 1px #8d6c01);
@@ -687,6 +687,7 @@ header{
 }
 .masterclass-title{
   margin-bottom: 260px;
+  font-size: 23px;
 }
 
 #masterclass-btn{
@@ -871,7 +872,7 @@ iframe{
 }
 
 .eventi-section-2{
-  margin-top: 100px;
+  margin-top: 250px;
   padding: 20px;
 
 }
