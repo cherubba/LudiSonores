@@ -4,8 +4,8 @@ import database from "../database.json"
 function Eventi(){
 
 
-    const cardElements = database.map(el =>{
-        return <div className="col-md-6 d-flex justify-content-center my-2 py-4 section-card"><div className="card">
+    const cardElements = database.slice(0, 1).map(el =>{
+        return <div className="col-md-6 d-flex justify-content-center my-5 py-5 section-card"><div className="card">
         <img src={`https://drive.google.com/uc?id=${el.imageID}`} className="card-img-top" alt="..."/>
         <div className="card-body">
         <h2 className="card-title">{el.name}</h2>

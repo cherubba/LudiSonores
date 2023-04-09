@@ -1,7 +1,23 @@
 [
   {
+    "id": "9",
+    "name": "English Strings - Concerto per orchestra d'archi",
+    "date": "23 Aprile 2023",
+    "description": "'English Strings' è un evento dedicato ai compositori inglesi di inizio '900 e allo straordinario repertorio per orchestra d'archi che essi ci hanno lasciato.",
+    "repertoire": [
+      "Edward Elgar - Serenata per archi in mi minore, Op. 20",
+      "Gerald Finzi - Romanza per orchestra d'archi, Op. 11",
+      "Frank Bridge - 'Notturno' dalla suite per orchestra d'archi,",
+      "H.93",
+      "Gustav Holst - St. Paul's Suite, Op. 29"
+
+    ],
+    "imageID": "19waPMSOYvo71eqK7xm3d0aZFDE6K5ivA",
+    "slug" : "EnglishStrings"
+  },
+  {
     "id": "4",
-    "name": "Natale all'Opera",
+    "name": "Natale all'Opera II edizione",
     "date": "22 Dicembre 2022",
     "description": "Ludi Sonores festeggia con voi il Natale con alcune delle più famose arie d'opera tratte dal repertorio di Mozart, Puccini, Donizetti e Bellini e una selezione di brani natalizi arrangiati per orchestra da camera.",
     "repertoire": [
@@ -12,6 +28,59 @@
     "imageID": "1L9ycYTM7YfOVvf9Ih9NkIsPyXo7_2-hp",
     "slug" : "nataleall'opera22"
   },
+  {   
+        "id": "8",
+        "name": "Salieri, Mozart, Haydn",
+        "date": "25 Giugno 2022",
+        "description": "Salieri, il maestro dell'imperatore. Mozart, l'artista libero. Haydn, il padre della sinfonia. L'orchestra Ludi Sonores mette a confronto tre sinfonie dei grandi esponenti del classicismo viennese.",
+        "repertoire": [
+          "A. Salieri - sinfonia veneziana",
+          "W. A. Mozart - sinfonia n29 k201",
+          "G. Holst: St. Paul’s Suite op.29 n°2",
+          "F. J. Haydn - sinfonia n83 'La Gallina'"
+        ],
+        "imageID": "1FozSv9IDfrVvFaLj-CdGA6mtdHnIxJXI",
+        "slug" : "SalieriMozartHaydn"
+        
+      },
+
+  {   
+        "id": "7",
+        "name": "Masterclass M° Bufalini 2022",
+        "date": "6 Maggio 2022",
+        "description": " Si rivolge a tutti i musicisti interessati allo studio della direzione d’orchestra, selezionati attraverso curriculum (studi e attività) e ai membri dell’Ass. Cul. Mus. “LUDI SONORES”. Il programma dei brani da studiare durante il corso è scelto in modo da andare incontro agli interessi sia di allievi principianti che di allievi avanzati.",
+        "repertoire": [
+          "P. I. Čajkovskij: Serenata per orchestra d’archi op.48",
+          "E. Grieg: Holberg Suite op.40”",
+          "G. Holst: St. Paul’s Suite op.29 n°2",
+          "L. Boccherini sinfonia op.12 n°4 “La Casa del diavolo",
+          "W. A. Mozart: Divertimento K 137; Sinfonia K 201; Selezione di arie d’opera",
+          "F. J. Haydn Sinfonie 49 (La Passione) 83, 84, 87."
+        ],
+        "imageID": "1yRjJDI7AIA4K_SdrRNKCiSsGAeUEfX8T",
+        "slug" : "masterclass2022"
+        
+      },
+  {
+    "id": "6",
+    "name" : " Æqualis",
+    "date" : "28 Ottobre 2021",
+    "description" : "La Ludi Sonores Orchestra, in collaborazione con il Pontificio Istituto Musica Sacra e con Officina Terapie Innovative presentano Æqualis - Rassegna di musica contemporanea",
+    "repertoire" : [
+      "Cristiana Colaneri Vis",
+      "Giordano De Nisi Nebulosa I",
+      "Alessandro De Santis Exit",
+      "Chiara Marchetti Mit Wechselndem Schlüssel",
+      "Alessandro Meacci Passacaglia",
+      "Andrea Rossi Cinque pezzi per orchestra d'archi",
+      "Gabriele Spampinato Architettura",
+      "Daniele Vulpiani Béton brut"
+    ],
+    "imageID" : "1KLYqcn5Y33pIyilfoHHYzU2Qv3KbdFtF",
+    "slug" : "aequalis"
+
+  },
+  
    {
         "id": "0",    
         "name": "Masterclass M° Bufalini 2021",
