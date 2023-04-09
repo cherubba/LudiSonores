@@ -1,8 +1,14 @@
 import Footer from "../components.js/Footer";
 import Navbar from "../components.js/Navbar";
 import logo from "../images/Livello 1 copia.png"
+import { useEffect } from "react"
 
 function PaginaChiSiamo() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // scrolla all'inizio della pagina quando il componente viene montato
+  }, []);
+
   return (
     <>
         <Navbar />
