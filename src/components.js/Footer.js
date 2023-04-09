@@ -22,6 +22,7 @@ function Footer (){
                 <div className="col align-self-center d-flex justify-content-center">
                     <Link to="/"><img src={logo} width="250" id="logo-ludi"/></Link>
                 </div>
+                <h4 className="text-center footer-end">2023 Associazione Ludi Sonores C.F 96495580589 All Rights reserved.</h4>
                 </div>
             </div>
     )

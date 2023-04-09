@@ -8,7 +8,7 @@ function BandoButton(){
 
     return(
         <>
-        <div className="bandobutton-section" data-aos="fade-up">
+        <div className="bandobutton-section">
             <img src={iconL} alt="logo" width="150" className="ludiL"/>
             <button className="bando-button" ><a  class="link-style" href="/eventi/EnglishStrings" >Prossimo Concerto: English Strings 23/04/2023 </a></button>
             <img src={iconR} alt="logo" width="150" className="ludiL"/>

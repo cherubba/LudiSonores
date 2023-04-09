@@ -21,13 +21,14 @@ function PaginaEventiDettaglio (){
             <Navbar />
             </div>
             <div className="text-center eventi-section-2">
-                <h2 className="section-title" id="eventi-title">{thisEvent.name}</h2>
+                <h2 className="section-title" id="evento-title">{thisEvent.name}</h2>
                 <h3 className="text-center">{thisEvent.date}</h3>
                 </div>
                 <h2 className="text-center programma">Programma</h2>
             <div className="repertorio">
                 {thisEventTrack}
 
+            <a href="mailto:info@ludisonores.com?subject=Info e Prenotazione&body=Salve, vorrei maggiori informazioni riguardo lo spettacolo ed eventualmente prenotare un posto... "><button className="prenota-button">Richiedi Info e Prenotazione per lo spettacolo</button></a>
             </div>
             
 

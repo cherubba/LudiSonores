@@ -1,3 +1,5 @@
+import pdf from "../bandomasterclass22.pdf"
+
 function Masterclass22() {
   return (
     <>
@@ -11,7 +13,7 @@ function Masterclass22() {
             partecipanti lavoreranno con un'orchestra dal vivo affiancati da un
             grande didatta della direzione d'orchestra.
           </p>
-          <button id="masterclass-btn">Nuovo Bando Masterclass 2022 <i class="ri-file-text-line"></i></button>
+          <a href={pdf}  download="bando2022.pdf"><button id="masterclass-btn">Nuovo Bando Masterclass 2022 <i class="ri-file-text-line"></i></button></a>
         </div>
       </div>
     </div>

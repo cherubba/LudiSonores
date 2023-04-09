@@ -26,7 +26,7 @@ function Contatti () {
         <div className="container text-center form-div">
             <div class="form-contattaci">
             <h1>Invia un Messaggio</h1>
-            <form action="https://formsubmit.co/registrazionivocalimarco@gmail.com" method="POST" >
+            <form action="https://formsubmit.co/info@ludisonores.com" method="POST" >
                 <div class="form1">
                 <input type="hidden" name="_subject" value="Nuovo Messaggio!"/>
                 <input type="hidden" name="_captcha" value="false"/>

@@ -11,7 +11,7 @@ function BandoMasterclass2022 () {
         <h2 className="text-center mobile-button bando-title" >Scarica qui il nuovo Bando</h2>
         <div className="container pdf-file" data-aos="fade-up">
         <div className="button-wrapper mobile-button">
-        <BandoButton />
+        <a href={pdf}  download="bando2022.pdf"><button id="masterclass-btn-mobile">Nuovo Bando Masterclass 2022 <i class="ri-file-text-line"></i></button></a>
         </div>
         <iframe
         title="Bando Masterclass 2022"

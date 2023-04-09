@@ -150,13 +150,11 @@ header{
   font-size: 2vw;
   filter: drop-shadow(20px 20px 1px #8d6c01);
   
-  transition: width  200ms ease-out 100ms;
+  
 
 }
 
-.bando-button:hover{
-  width: 600px;
-}
+
 
 .link-style{
   color: #000000;
@@ -226,6 +224,12 @@ header{
   width: 40%;
   padding: 15px;
   font-size: 27px;
+}
+
+.prenota-button{
+  background-color: #bba758;
+  color: white;
+  
 }
 /* ----------------------------------------------CHI SIAMO */
 
@@ -500,6 +504,12 @@ iframe{
   height: 100vh;
 }
 
+.footer-end{
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
 /* MOBILE */
 
 @media screen and (max-width: 400px){
@@ -583,7 +593,7 @@ header{
 
   font-size: 14px;
   font-family: 'Khand', sans-serif;
-  height: 70px;
+  height: 100px;
   filter: drop-shadow(10px 10px 1px #8d6c01);
 
 }
@@ -594,12 +604,16 @@ header{
 
 #eventi-title{
   font-size: 40px;
-  margin-bottom: 0px;
+  margin-bottom: -100px;
+}
+
+#evento-title{
+  font-size: 40px;
 }
 
 .eventi-row{
   margin-bottom: 0px;
-  margin-top: -100px;
+  margin-top: 130px;
   
 }
 
@@ -620,7 +634,9 @@ header{
   margin-bottom: 0px;
 }
 
-
+/* .section-card{
+  margin-top: 130px;
+} */
 
 
 .imgbgchiamo{
@@ -699,6 +715,15 @@ header{
 
 }
 
+#masterclass-btn-mobile{
+  font-size: 14px;
+  font-family: 'Khand', sans-serif;
+  height: 30px;
+  position: absolute;
+  top: -60px;
+  left: 100px;
+}
+
 .section-title{
   font-size: 22px;
 }
@@ -742,6 +767,12 @@ header{
   background-position: center;
   box-shadow: inset 0px 0px 0px #000000, inset 0px -20px 60px #000000;
   margin-bottom: 100px;
+}
+
+.prenota-button{
+  background-color: #9e8c45;
+  color: white;
+  font-size: 22px;
 }
 
 /* -----------------------------ORCHESTRA */
@@ -866,19 +897,22 @@ iframe{
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
-  box-shadow: inset 0px 100px 40px #000000a6, inset 0px -150px 150px #000000;
-  margin-bottom: -350px;
+  height: 45vh;
+  box-shadow: inset 0px 10px 40px #000000a6, inset 0px -50px 70px #000000; 
+  margin-bottom: -250px;
 }
 
 .eventi-section-2{
   margin-top: 250px;
   padding: 20px;
 
+
 }
 
 .eventi-section-2 h2 {
   font-size: 9vh;
+  
+
   
  
 }
@@ -903,6 +937,12 @@ iframe{
 
 #logo-ludi{
   margin-left: 110px;
+}
+
+.footer-end{
+  font-size: 10px;
+  margin-top: 20px;
+  margin-bottom: 0px;
 }
 
 
