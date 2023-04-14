@@ -20,7 +20,7 @@ function Contatti () {
         <Navbar />
         <div className="bg-contatti" data-aos="fade-up">
         <img src={logo} className="ludi-logo" alt="ludisonoreslogo"/>
-        <h1 id="pagina-chisiamo-title">Contatti</h1>
+        <div className="text-center eventi-section-2"><h2 id="eventi-title">Contatti</h2></div>
       
         </div>
         <div className="container text-center form-div">

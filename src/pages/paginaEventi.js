@@ -10,10 +10,10 @@ function PaginaEventi () {
         <>
             <Navbar />
             <div className="pagina-eventi-bg" data-aos="fade-up"> 
-            <div>
-            <img src={logo} className="ludi-logo" alt="ludisonoreslogo"/>
+  
+            <img src={logo} className="ludi-logo"  alt="ludisonoreslogo"/>
             <div className="text-center eventi-section-2"><h2 id="eventi-title">Eventi</h2></div>
-            </div>
+
             </div>
             <Eventi />
             <Footer />

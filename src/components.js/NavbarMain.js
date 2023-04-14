@@ -5,8 +5,8 @@ function Navbar() {
     return(
         <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid">
-            <Link to="/"><img src={logo} className="ludi-logoNav" alt="ludisonoreslogo"/></Link>
-              
+            <a class="navbar-brand" href="#">
+              </a>
               <button
                 class="navbar-toggler custom-toggler"
                 type="button"

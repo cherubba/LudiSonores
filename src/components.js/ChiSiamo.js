@@ -19,7 +19,7 @@ function ChiSiamo(){
                 </div>
             </div>
         </div>
-        <hr class="hr5chisiamo"/>
+        {/*<hr class="hr5chisiamo"/>*/}
         </>
     )
 }

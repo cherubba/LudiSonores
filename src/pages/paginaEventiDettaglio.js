@@ -20,7 +20,7 @@ function PaginaEventiDettaglio (){
             <div className="bg-evento" style={{backgroundImage: `url(https://drive.google.com/uc?id=${thisEvent.imageID})`}}> 
             <Navbar />
             </div>
-            <div className="text-center eventi-section-2">
+            <div className="text-center eventi-section-2-special">
                 <h2 className="section-title" id="evento-title">{thisEvent.name}</h2>
                 <h3 className="text-center" id="event-date">{thisEvent.date}</h3>
                 </div>

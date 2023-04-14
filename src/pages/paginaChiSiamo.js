@@ -14,7 +14,7 @@ function PaginaChiSiamo() {
         <Navbar />
       <div className="pagina-chisiamo-bg" data-aos="fade-up">
         <img src={logo} className="ludi-logo" alt="ludisonoreslogo"/>
-        <h1 id="pagina-chisiamo-title">Chi Siamo</h1>
+        <div className="text-center eventi-section-2"><h2 id="eventi-title">Chi siamo</h2></div>
       </div>
       <div>
         <p id="pagina-chisiamo-description">

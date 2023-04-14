@@ -11,7 +11,7 @@ function Footer (){
                     <span><Link to="/" class="nav-link ">Home</Link></span>
                     <span><Link to="/eventi" class="nav-link ">Eventi</Link></span>
                     <span><Link to="/chisiamo" class="nav-link ">Orchestra</Link></span>
-                    <span><Link to="/bandoMasterclass2022" class="nav-link ">bando Masterclass 2022</Link></span>
+                    {/*<span><Link to="/bandoMasterclass2022" class="nav-link ">bando Masterclass 2022</Link></span>*/}
                 </div>
                 <div className="col  align-self-center d-flex justify-content-center social-icon">
                 <a href="https://www.facebook.com/ludisonores" class="nav-link " target={"_blank"}><i className="ri-facebook-fill"></i></a>
