@@ -22,7 +22,7 @@ function PaginaEventiDettaglio (){
             </div>
             <div className="text-center eventi-section-2">
                 <h2 className="section-title" id="evento-title">{thisEvent.name}</h2>
-                <h3 className="text-center">{thisEvent.date}</h3>
+                <h3 className="text-center" id="event-date">{thisEvent.date}</h3>
                 </div>
                 <h2 className="text-center programma">Programma</h2>
             <div className="repertorio">

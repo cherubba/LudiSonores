@@ -773,6 +773,8 @@ header{
   background-color: #9e8c45;
   color: white;
   font-size: 22px;
+  margin-top: 40px;
+
 }
 
 /* -----------------------------ORCHESTRA */
@@ -904,7 +906,7 @@ iframe{
 
 .eventi-section-2{
   margin-top: 250px;
-  padding: 20px;
+  padding: 8px;
 
 
 }
@@ -919,6 +921,12 @@ iframe{
 .eventi-section-2 h3 {
   font-size: 6vh;
 }
+
+#event-date{
+  font-size: 25px;
+}
+
+
 
 /* ----------------------Footer */
 
