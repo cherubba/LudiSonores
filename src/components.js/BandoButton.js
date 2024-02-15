@@ -8,8 +8,7 @@ function BandoButton() {
         <img src={iconL} alt="logo" width="150" className="ludiL" />
         <button className="bando-button">
           <a class="link-style" href="/eventi/primer">
-            Prossimo Concerto: {"\n"} Primer - Duo Doulov-Pogosyan - Stagione da
-            Camera Ludi Sonores 15/02/2024{" "}
+            Prossimo Concerto: {"\n"} Primer - Duo Doulov-Pogosyan
           </a>
         </button>
         <img src={iconR} alt="logo" width="150" className="ludiL" />
