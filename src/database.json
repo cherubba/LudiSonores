@@ -1,4 +1,44 @@
-[
+[ 
+  {
+    "id": "12",
+    "name": "Primer - Duo Doulov-Pogosyan - Stagione da Camera Ludi Sonores",
+    "date": "15 Febbraio 2024",
+    "description": "L'Orchestra Ludi Sonores presenta la sua prima stagione da camera: ",
+    "repertoire": [
+      "Violino : Alexey Doulov",
+      "Pianoforte : Natalia Pogosyan"
+    ],
+    "imageID": "19waPMSOYvo71eqK7xm3d0aZFDE6K5ivA",
+    "slug" : "primer"
+    },
+  {
+  "id": "11",
+  "name": "Quadri del Nord - Trio Amal - Stagione da Camera Ludi Sonores",
+  "date": "25 Gennaio 2024",
+  "description": "L'Orchestra Ludi Sonores presenta la sua prima stagione da camera: ",
+  "repertoire": [
+    "Violino : Maddalena Fogacci Celi",
+    "Violoncello : Alice Romano",
+    "Pianoforte : Adriano Leonardo Scapicchi" 
+  ],
+  "imageID": "19waPMSOYvo71eqK7xm3d0aZFDE6K5ivA",
+  "slug" : "quadri_del_nord"
+  },
+  {
+    "id": "10",
+    "name": "Natale all'Opera III edizione",
+    "date": "23 Dicembre 2023",
+    "description": "Ludi Sonores festeggia con voi il Natale con alcune delle più famose arie d'opera tratte dal repertorio di Mozart, Verdi e Puccini e una selezione di brani natalizi arrangiati per orchestra da camera.",
+    "repertoire": [
+      "SOPRANO : Giulia Ferraldeschi",
+      "MEZZOSOPRANO : Marta Pacifici",
+      "BARITONO : Giuseppe Pecce", 
+      "Direttore : Andrea Rossi"
+
+    ],
+    "imageID": "19waPMSOYvo71eqK7xm3d0aZFDE6K5ivA",
+    "slug" : "nataleall'opera23"
+  },
   {
     "id": "9",
     "name": "English Strings - Concerto per orchestra d'archi",
