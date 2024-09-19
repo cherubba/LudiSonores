@@ -1,14 +1,53 @@
-[ 
+[ {
+  "id": "15",
+  "name": "Sacred and secular - Coro VoxArt - Stagione da Camera Ludi Sonores",
+  "date": "16 Maggio 2024",
+  "description": "L'Orchestra Ludi Sonores presenta la sua prima stagione da camera: ",
+  "repertoire": [
+    "Verranno eseguiti brani dai seguenti compositori: Felice Anerio - Filippo Azzaiolo - Adriano Banchieri - William Byrd - Josquin Desprez - Baldassare Donato - Giovanni Giacomo Gastoldi - Orlando Di Lasso - Ludovico Grossi da Viadana - Tomas Luis da Victoria - Giovanni Pierluigi da Palestrina - Orazio Vecchi"
+  ],
+  "imageID": "sacred_secular_u3o6a5",
+  "slug" : "sacred_secular"
+  },
+  {
+  "id": "14",
+  "name": "Haydn Cello Night - Orchestra Ludi Sonores - Stagione da Camera Ludi Sonores",
+  "date": "21 Aprile 2024",
+  "description": "L'Orchestra Ludi Sonores presenta la sua prima stagione da camera: ",
+  "repertoire": [
+    "F.J. Haydn - Sinfonia n 27 in Sol Maggiore",
+    "F.J. Haydn - Concerto per Violoncello e Orchestra n 1 in Do Maggiore",
+    "F.J. Haydn - Sinfonia n 49 in Fa Minore 'La Passione'",
+    "Violoncello solista : Claudio Aiello",
+    "Direttore : Andrea Rossi"
+  ],
+  "imageID": "haydn_cello_night_lojv8x",
+  "slug" : "haydn_cello"
+  },
+  {
+  "id": "13",
+  "name": "Song of Love, Hope and Longing - Trio Ermete - Stagione da Camera Ludi Sonores",
+  "date": "14 Marzo 2024",
+  "description": "L'Orchestra Ludi Sonores presenta la sua prima stagione da camera: ",
+  "repertoire": [
+    "Programma per voce, contrabbasso e pianoforte: Bottesini - Debussy - Donizetti - Respighi"
+  ],
+  "imageID": "songs_of_love_tuabae",
+  "slug" : "song_of_love"
+  },
   {
     "id": "12",
     "name": "Primer - Duo Doulov-Pogosyan - Stagione da Camera Ludi Sonores",
     "date": "15 Febbraio 2024",
     "description": "L'Orchestra Ludi Sonores presenta la sua prima stagione da camera: ",
     "repertoire": [
+      "W.A. Mozart - Sonata per violino e pianoforte K 304 in mi minore",
+      "L. van Beethoven - Sonata per violino e pianoforte n. 7 op. 30 n. 2",
+      "J. Brahms - Sonata per violino e pianoforte n. 1 Op.78",
       "Violino : Alexey Doulov",
       "Pianoforte : Natalia Pogosyan"
     ],
-    "imageID": "19waPMSOYvo71eqK7xm3d0aZFDE6K5ivA",
+    "imageID": "primer_fxnnzj",
     "slug" : "primer"
     },
   {
@@ -21,7 +60,7 @@
     "Violoncello : Alice Romano",
     "Pianoforte : Adriano Leonardo Scapicchi" 
   ],
-  "imageID": "19waPMSOYvo71eqK7xm3d0aZFDE6K5ivA",
+  "imageID": "quadri_dal_nord_zemu77",
   "slug" : "quadri_del_nord"
   },
   {
@@ -36,7 +75,7 @@
       "Direttore : Andrea Rossi"
 
     ],
-    "imageID": "19waPMSOYvo71eqK7xm3d0aZFDE6K5ivA",
+    "imageID": "natale_opera_2024_rdrzxn",
     "slug" : "nataleall'opera23"
   },
   {
@@ -52,11 +91,11 @@
       "Gustav Holst - St. Paul's Suite, Op. 29"
 
     ],
-    "imageID": "19waPMSOYvo71eqK7xm3d0aZFDE6K5ivA",
+    "imageID": "english_strings_zjyqwy",
     "slug" : "EnglishStrings"
   },
   {
-    "id": "4",
+    "id": "8",
     "name": "Natale all'Opera II edizione",
     "date": "22 Dicembre 2022",
     "description": "Ludi Sonores festeggia con voi il Natale con alcune delle più famose arie d'opera tratte dal repertorio di Mozart, Puccini, Donizetti e Bellini e una selezione di brani natalizi arrangiati per orchestra da camera.",
@@ -65,11 +104,11 @@
       "MEZZOSOPRANO : Alessia Martuscelli",
       "Direttore : Andrea Rossi"
     ],
-    "imageID": "1L9ycYTM7YfOVvf9Ih9NkIsPyXo7_2-hp",
+    "imageID": "natale_opera_2022_xbtjvh",
     "slug" : "nataleall'opera22"
   },
   {   
-        "id": "8",
+        "id": "7",
         "name": "Salieri, Mozart, Haydn",
         "date": "25 Giugno 2022",
         "description": "Salieri, il maestro dell'imperatore. Mozart, l'artista libero. Haydn, il padre della sinfonia. L'orchestra Ludi Sonores mette a confronto tre sinfonie dei grandi esponenti del classicismo viennese.",
@@ -79,13 +118,13 @@
           "G. Holst: St. Paul’s Suite op.29 n°2",
           "F. J. Haydn - sinfonia n83 'La Gallina'"
         ],
-        "imageID": "1FozSv9IDfrVvFaLj-CdGA6mtdHnIxJXI",
+        "imageID": "salieri_mozart_haydn_m7idgl",
         "slug" : "SalieriMozartHaydn"
         
       },
 
   {   
-        "id": "7",
+        "id": "6",
         "name": "Masterclass M° Bufalini 2022",
         "date": "6 Maggio 2022",
         "description": " Si rivolge a tutti i musicisti interessati allo studio della direzione d’orchestra, selezionati attraverso curriculum (studi e attività) e ai membri dell’Ass. Cul. Mus. “LUDI SONORES”. Il programma dei brani da studiare durante il corso è scelto in modo da andare incontro agli interessi sia di allievi principianti che di allievi avanzati.",
@@ -97,12 +136,12 @@
           "W. A. Mozart: Divertimento K 137; Sinfonia K 201; Selezione di arie d’opera",
           "F. J. Haydn Sinfonie 49 (La Passione) 83, 84, 87."
         ],
-        "imageID": "1yRjJDI7AIA4K_SdrRNKCiSsGAeUEfX8T",
+        "imageID": "masterclass2022_flbed1",
         "slug" : "masterclass2022"
         
       },
   {
-    "id": "6",
+    "id": "5",
     "name" : " Æqualis",
     "date" : "28 Ottobre 2021",
     "description" : "La Ludi Sonores Orchestra, in collaborazione con il Pontificio Istituto Musica Sacra e con Officina Terapie Innovative presentano Æqualis - Rassegna di musica contemporanea",
@@ -116,13 +155,13 @@
       "Gabriele Spampinato Architettura",
       "Daniele Vulpiani Béton brut"
     ],
-    "imageID" : "1KLYqcn5Y33pIyilfoHHYzU2Qv3KbdFtF",
+    "imageID" : "aequalis_zdi15p",
     "slug" : "aequalis"
 
   },
   
    {
-        "id": "0",    
+        "id": "4",    
         "name": "Masterclass M° Bufalini 2021",
         "date": "Autunno 2021",
         "description": "L'associazione Ludi Sonores presenta la seconda edizione della masterclass di direzione d'orchestra del M° Marcello Bufalini. I partecipanti lavoreranno con un'orchestra dal vivo affiancati da un grande didatta della direzione d'orchestra.",
@@ -135,12 +174,12 @@
           "W.A MOZART : Sinfonie KV 201, KV 319, KV 550; da Le nozze di Figaro “E Susanna non vien”, “Giunse alfine il momento”; da Così fan tutte: duetto “Prenderò quel brunettino”",
           "F. SCHUBERT : Sinfonia n. 5"
         ],
-        "imageID": "1-ZollYWW8zT37bfjGOIQvEqSjQDgd5gN",
+        "imageID": "masterclass2021_xilxzz",
         "slug" : "masterclass2021"
 
     },
     {   
-        "id": "1",
+        "id": "3",
         "name": "Masterclass M° Bufalini 2020",
         "date": "Ottobre 2021",
         "description": "L'associazione Ludi Sonores, in collaborazione con la Scuola di musica Sylvestro Ganassi, organizza la masterclass di direzione d'orchestra del M° Marcello Bufalini. I partecipanti avranno la possibilità di dirigere la Ludi Sonores orchestra dal vivo con repertorio sinfonico e operistico.",
@@ -153,12 +192,12 @@
           "E. ELGAR Serenata per archi",
           "W.A. MOZART Divertimento KV 136, Sinfonie KV 22, 201, 319, 550"
         ],
-        "imageID": "1AQbHtsqJL-EtqtkCkYkIY52PtU43nWX2",
+        "imageID": "masterclass2020_bmu8sv",
         "slug" : "masterclass2020"
         
       },
       {
-        "id": "2",
+        "id": "1",
         "name": "Il giovane Mozart",
         "date": "30 Giugno 2019",
         "description": "L'orchestra Ludi Sonores debutta con un concerto sul bambino prodigio. Propone un programma tratto dalle opere giovanili del più famoso compositore austriaco.",
@@ -167,12 +206,12 @@
           "ARPA : Chiara Santoro",
           "W.A MOZART : Sinfonia n. 5 K22, Sinfonia n. 29 K201, Concerto per flauto e arpa K299"
         ],
-        "imageID": "1bn4MkmescUfxNAZdzqE-B1DNmJVtznvH",
+        "imageID": "giovanemozart_f7ayvz",
         "slug" : "ilgiovanemozart"
       },
 
       {
-        "id": "3",
+        "id": "2",
         "name": "Natale all'Opera",
         "date": "22 Dicembre 2019",
         "description": "Ludi Sonores festeggia con voi il Natale con alcune delle più famose arie d'opera tratte dal repertorio di Mozart, Puccini, Donizetti e Bellini e una selezione di brani natalizi arrangiati per orchestra da camera.",
@@ -185,7 +224,7 @@
           "W.A MOZART : Don Giovanni: \"Madamina, il catalogo è questo\", \"Là ci darem la mano\" Le nozze di Figaro: \"Non più andrai farfallone amoroso, Così fan tutte: \"Il core vi dono\", \"Soave sia il vento",
           "G. PUCCINI : La Bohème: \"Sì. Mi chiamano Mimì\", \"Quando me'n vo'\""
         ],
-        "imageID": "1n0aDmdegLKg2bEOrCTKDWKHaj3BM9IbI",
+        "imageID": "natale_opera_2019_zjji7x",
         "slug" : "nataleall'opera"
       }
 

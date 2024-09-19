@@ -50,7 +50,7 @@ header{
   color: #D6B01A;
 }
 .navbar-nav{
-  font-size: 2.0em;
+  font-size: 1.5em;
   z-index: 999;
 
 
@@ -306,9 +306,37 @@ width: 500px;
   box-shadow: inset 0px 30px 50px #000000, inset 0px -150px 150px #000000;
 }
 
+.bgimagemasterclassviolino {
+  position: relative; /* Importante per posizionare correttamente l'overlay */
+  height: 100vh;
+  margin-bottom: 120px;
+  background-image: url("./images/misia_jannoni_sebastianini.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: inset 0px 30px 50px #000000, inset 0px -150px 150px #000000;
+}
+
+.bgimagemasterclassviolino::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Opacità del background */
+  z-index: 1; /* Posizionamento sotto il contenuto ma sopra l'immagine di sfondo */
+}
+
+/* Assicurati che il contenuto sia sopra l'overlay */
+.bgimagemasterclassviolino .col-5,
+.bgimagemasterclassviolino h2 {
+  position: relative;
+  z-index: 2; /* Posizionamento sopra l'overlay */
+}
+
 .masterclass-title{
   font-size: 4.7vw;
-  margin-top: -200px;
 }
 
 #masterclass-para{
@@ -323,6 +351,23 @@ width: 500px;
   filter: drop-shadow(20px 20px 1px #8d6c01);
  
 
+}
+
+@media (max-width: 767.98px) { /* Questo targetta dispositivi mobili con larghezza fino a 767.98px */
+  .col-5 {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* Opzionale: Centrare il testo e aggiungere padding per una migliore visualizzazione su mobile */
+  .col-5 #masterclass-para {
+    text-align: center; /* Centra il testo */
+    padding: 10px; /* Aggiunge padding per evitare che il testo tocchi i bordi */
+  }
+
+  .col-5 {
+    padding: 0 15px; /* Aggiungi padding laterale al contenitore per migliorare l'estetica su mobile */
+  }
 }
 
 
@@ -722,19 +767,19 @@ header{
   
 }
 
+
+
 #masterclass-para{
   font-size: 14px;
   padding-top: 40px;
   padding-left: 0px;
   padding-right: 0px;
   text-align: left;
-  margin-left: -80px;
   width: 100%;
   
   
 }
 .masterclass-title{
-  margin-bottom: 260px;
   font-size: 23px;
 }
 
