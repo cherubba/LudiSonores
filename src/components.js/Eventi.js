@@ -1,13 +1,24 @@
 import { Link } from "react-router-dom";
 import database from "../database.json";
+import natale2024 from "../images/natale_opera_2024.jpg";
+import quattroStagioni2 from "../images/quattro_stagioni_2.jpg";
+import quattroStagioni from "../images/quattro_stagioni.jpg";
 
 function Eventi() {
+  const localImages = {
+    natale_opera_2024_iv: natale2024,
+    quattro_stagioni_2: quattroStagioni2,
+    quattro_stagioni_domma_2025: quattroStagioni,
+  };
   const cardElements = database.map((el) => {
+    const imageSrc =
+      localImages[el.imageID] ||
+      `https://res.cloudinary.com/dv5vsvca5/image/upload/v1725351668/${el.imageID}`;
     return (
       <div className="col-md-6 d-flex justify-content-center  py-4 section-card">
         <div className="card">
           <img
-            src={`https://res.cloudinary.com/dv5vsvca5/image/upload/v1725351668/${el.imageID}`}
+            src={imageSrc}
             className="card-img-top"
             alt="..."
           />
