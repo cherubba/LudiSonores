@@ -32,6 +32,9 @@ function Footer() {
             <Link to="/bandoMasterclassArteScenica2024" class="nav-link ">
               Bando Masterclass di Arte Scenica 2024
             </Link>
+            <Link to="/bandoMasterclassOperaStudio2024" class="nav-link ">
+              Bando Masterclass di Opera Studio 2024
+            </Link>
           </span>
         </div>
         <div className="col  align-self-center d-flex justify-content-center social-icon">

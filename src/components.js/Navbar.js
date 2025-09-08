@@ -49,6 +49,11 @@ function Navbar() {
                 <p class="nav-link ">Bando Masterclass di Arte Scenica 2024</p>
               </Link>
             </li>
+            <li>
+              <Link to="/bandoMasterclassOperaStudio2024" class="nav-link ">
+                Bando Masterclass di Opera Studio 2024
+              </Link>
+            </li>
             <li class="nav-item">
               <Link to="/contatti">
                 <p class="nav-link">contatti</p>

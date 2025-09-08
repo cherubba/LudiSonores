@@ -9,6 +9,7 @@ import Contatti from "./pages/contatti";
 import Grazie from "./pages/grazie";
 import BandoMasterclassViolino2024 from "./pages/bandoMasterclassViolino2024";
 import BandoMasterclassArteScenica2024 from "./pages/bandoMasterclassArteScenica2024";
+import BandoMasterclassOperaStudio2024 from "./pages/bandoMasterclassOperaStudio2024";
 
 function App() {
   return (
@@ -28,6 +29,10 @@ function App() {
         <Route
           path="/bandoMasterclassArteScenica2024"
           element={<BandoMasterclassArteScenica2024 />}
+        />
+        <Route
+          path="/bandoMasterclassOperaStudio2024"
+          element={<BandoMasterclassOperaStudio2024 />}
         />
         <Route path="/contatti" element={<Contatti />} />
         <Route path="/eventi/:slug" element={<PaginaEventiDettaglio />} />
