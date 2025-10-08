@@ -73,7 +73,7 @@ function Footer() {
           </Link>
         </div>
         <h4 className="text-center footer-end">
-          2024 Associazione Ludi Sonores C.F 96495580589 All Rights reserved.
+          2025 Ludi Sonores APS C.F P.IVA 18098831003 Via G.Genoese Zerbi 13 00122 Roma All Rights reserved.
         </h4>
       </div>
     </div>
