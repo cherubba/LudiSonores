@@ -3,9 +3,11 @@ import { Outlet, useLocation } from 'react-router-dom';
 import { Header } from './Header';
 import { Footer } from './Footer';
 import { useHtmlLang } from '@/hooks/useHtmlLang';
+import { useDynamicManifest } from '@/hooks/useDynamicManifest';
 
 export function Layout() {
   useHtmlLang();
+  useDynamicManifest('/manifest.json');
   const { pathname } = useLocation();
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'instant' });

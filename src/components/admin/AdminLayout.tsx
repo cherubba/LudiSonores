@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link, NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom';
 import { Calendar, FileText, LayoutDashboard, LogOut, Menu, X } from 'lucide-react';
 import { useAuth } from '@/lib/auth';
+import { useDynamicManifest } from '@/hooks/useDynamicManifest';
 import { cn } from '@/lib/utils';
 
 const NAV = [
@@ -11,6 +12,7 @@ const NAV = [
 ];
 
 export function AdminLayout() {
+  useDynamicManifest('/manifest-admin.json');
   const { user, signOut } = useAuth();
   const navigate = useNavigate();
   const location = useLocation();
