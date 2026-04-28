@@ -1,7 +1,7 @@
 import Footer from "../components.js/Footer";
 import Navbar from "../components.js/Navbar";
-import pdf from "../Bando_Masterclass_Arte_scenica_2024.pdf";
-import BandoButton from "../components.js/BandoButton";
+
+const pdf = `${process.env.PUBLIC_URL}/bandi/Bando_Masterclass_Arte_scenica_2024.pdf`;
 
 function BandoMasterclassArteScenica2024() {
   return (
@@ -15,7 +15,7 @@ function BandoMasterclassArteScenica2024() {
           <a href={pdf} download="Bando_Masterclass_Arte_scenica_2024">
             <button id="masterclass-btn-mobile">
               Nuovo Bando Masterclass di Arte Scenica 2024{" "}
-              <i class="ri-file-text-line"></i>
+              <i className="ri-file-text-line"></i>
             </button>
           </a>
         </div>

@@ -3,7 +3,6 @@ import Header from "./../components.js/HeaderMain";
 import BandoButton from "./../components.js/BandoButton";
 import Eventi from "./../components.js/Eventi";
 import ChiSiamo from "./../components.js/ChiSiamo";
-import Masterclass22 from "./../components.js/Masterclass22";
 import Footer from "./../components.js/Footer";
 import MasterclassViolino24 from "../components.js/MasterclassViolino24";
 

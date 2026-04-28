@@ -3,9 +3,11 @@ import logo from "../images/Livello 1 copia.png";
 
 function Navbar() {
   return (
-    <nav class="navbar navbar-expand-lg ">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"></a>
+    <nav className="navbar navbar-expand-lg ">
+      <div className="container-fluid">
+        <Link to="/" className="navbar-brand">
+          <img src={logo} alt="Ludi Sonores" height="40" />
+        </Link>
         <button
           class="navbar-toggler custom-toggler"
           type="button"

@@ -41,35 +41,39 @@ function Footer() {
           <a
             href="https://www.facebook.com/ludisonores"
             class="nav-link "
-            target={"_blank"}
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <i className="ri-facebook-fill"></i>
           </a>
           <a
             href="https://www.instagram.com/ludisonores/"
             class="nav-link "
-            target={"_blank"}
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <i className="ri-instagram-line"></i>
           </a>
           <a
             href="https://www.youtube.com/@orchestraludisonores4566"
             class="nav-link "
-            target={"_blank"}
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <i className="ri-youtube-line"></i>
           </a>
           <a
             href="mailto:info@ludisonores.com?subject=Richiesta Informazioni LudiSonores'"
             class="nav-link "
-            target={"_blank"}
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <i className="ri-mail-line"></i>
           </a>
         </div>
         <div className="col align-self-center d-flex justify-content-center">
           <Link to="/">
-            <img src={logo} width="250" id="logo-ludi" />
+            <img src={logo} width="250" id="logo-ludi" alt="Ludi Sonores Orchestra" />
           </Link>
         </div>
         <h4 className="text-center footer-end">
