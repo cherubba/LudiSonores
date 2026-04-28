@@ -17,9 +17,13 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && workbox generateSW workbox-config.js",
+    "build:cra": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "workbox-cli": "^7.4.0"
   },
   "eslintConfig": {
     "extends": [

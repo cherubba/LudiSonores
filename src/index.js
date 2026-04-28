@@ -6,6 +6,7 @@ import {BrowserRouter as Router} from 'react-router-dom'
 import { CustomContextProvider } from './customContext';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 // ..
 AOS.init();
 
@@ -18,5 +19,7 @@ root.render(
     </Router>
   </CustomContextProvider>
 );
+
+serviceWorkerRegistration.register();
 
 
