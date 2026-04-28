@@ -1,0 +1,38 @@
+rules_version = '2';
+// Security rules per Firebase Storage.
+// Bucket organizzato così:
+//   /events/{eventId}/{file}   - copertine eventi
+//   /bandi/{bandoId}/{file}    - PDF bandi
+
+service firebase.storage {
+  match /b/{bucket}/o {
+
+    function isAdmin() {
+      return request.auth != null
+          && request.auth.token.email_verified == true
+          && request.auth.token.email in [
+            'claudioaiello.developer@gmail.com',
+            'ludisonores@gmail.com'
+          ];
+    }
+
+    match /events/{eventId}/{file=**} {
+      allow read: if true;
+      allow write: if isAdmin()
+                   && request.resource.size < 10 * 1024 * 1024
+                   && request.resource.contentType.matches('image/.*');
+    }
+
+    match /bandi/{bandoId}/{file=**} {
+      allow read: if true;
+      allow write: if isAdmin()
+                   && request.resource.size < 20 * 1024 * 1024
+                   && (request.resource.contentType == 'application/pdf'
+                       || request.resource.contentType.matches('image/.*'));
+    }
+
+    match /{path=**} {
+      allow read, write: if false;
+    }
+  }
+}

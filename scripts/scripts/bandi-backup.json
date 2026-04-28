@@ -1,0 +1,42 @@
+[
+  {
+    "id": "violino-2024",
+    "slug": "violino2024",
+    "title": "Bando Masterclass di Violino Solista 2024",
+    "shortTitle": "Nuovo Bando Masterclass di Violino 2024",
+    "year": 2024,
+    "description": "L'associazione Ludi Sonores è lieta di presentare la masterclass di Violino Solista del M° Misia Jannoni Sebastianini. La Masterclass si rivolge a tutti i musicisti interessati allo studio del violino, selezionati attraverso curriculum (studi e attività). Il programma dei brani da studiare durante il corso è scelto in modo da andare incontro agli interessi sia di allievi principianti che di allievi avanzati.",
+    "pdf": "/bandi/Bando_Masterclass_Violino_Solista_2024.pdf",
+    "active": false
+  },
+  {
+    "id": "opera-studio-2024",
+    "slug": "operastudio2024",
+    "title": "Bando Masterclass di Opera Studio 2024",
+    "shortTitle": "Nuovo Bando Masterclass di Opera Studio 2024",
+    "year": 2024,
+    "description": "",
+    "pdf": "/bandi/Bando_Masterclass_Opera_Studio.pdf",
+    "active": false
+  },
+  {
+    "id": "arte-scenica-2024",
+    "slug": "artescenica2024",
+    "title": "Bando Masterclass di Arte Scenica 2024",
+    "shortTitle": "Nuovo Bando Masterclass di Arte Scenica 2024",
+    "year": 2024,
+    "description": "",
+    "pdf": "/bandi/Bando_Masterclass_Arte_scenica_2024.pdf",
+    "active": false
+  },
+  {
+    "id": "masterclass-2022",
+    "slug": "masterclass2022",
+    "title": "Bando Masterclass Direzione 2022",
+    "shortTitle": "Nuovo Bando Masterclass 2022",
+    "year": 2022,
+    "description": "L'associazione Ludi Sonores presenta la seconda edizione della masterclass di direzione d'orchestra del M° Marcello Bufalini. I partecipanti lavoreranno con un'orchestra dal vivo affiancati da un grande didatta della direzione d'orchestra.",
+    "pdf": "/bandi/bandomasterclass22.pdf",
+    "active": false
+  }
+]
