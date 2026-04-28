@@ -4,12 +4,23 @@
     <meta charset="UTF-8" />
     <link rel="icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-    <link rel="manifest" href="/manifest.json" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#0A0A0A" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta name="apple-mobile-web-app-title" content="Ludi Sonores" />
+    <script>
+      (function () {
+        var isAdmin = window.location.pathname.indexOf('/admin') === 0;
+        var manifest = document.createElement('link');
+        manifest.rel = 'manifest';
+        manifest.href = isAdmin ? '/manifest-admin.json' : '/manifest.json';
+        document.head.appendChild(manifest);
+        var title = document.createElement('meta');
+        title.name = 'apple-mobile-web-app-title';
+        title.content = isAdmin ? 'LS Admin' : 'Ludi Sonores';
+        document.head.appendChild(title);
+      })();
+    </script>
     <meta
       name="description"
       content="Orchestra Ludi Sonores — sito ufficiale: concerti, masterclass e bandi."

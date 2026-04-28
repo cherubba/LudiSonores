@@ -1,12 +1,10 @@
 import { useState, useEffect, type FormEvent } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useAuth } from '@/lib/auth';
-import { useDynamicManifest } from '@/hooks/useDynamicManifest';
 import { Button } from '@/components/ui/Button';
 import { Field, TextInput } from '@/components/admin/FormFields';
 
 export default function LoginPage() {
-  useDynamicManifest('/manifest-admin.json');
   const { signIn, user, isAdmin } = useAuth();
   const navigate = useNavigate();
   const location = useLocation();
