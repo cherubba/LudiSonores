@@ -35,8 +35,14 @@ export default function LoginPage() {
         setError('Account non autorizzato.');
       } else if (code === 'auth/invalid-credential' || code === 'auth/wrong-password' || code === 'auth/user-not-found') {
         setError('Credenziali non valide.');
+      } else if (code === 'auth/network-request-failed') {
+        setError('Errore di rete. Verifica la connessione e riprova.');
+      } else if (code === 'auth/too-many-requests') {
+        setError('Troppi tentativi. Riprova tra qualche minuto.');
+      } else if (code === 'auth/unauthorized-domain') {
+        setError('Dominio non autorizzato. Contatta l\'amministratore.');
       } else {
-        setError('Errore di accesso. Riprova.');
+        setError(`Errore di accesso${code ? ` (${code})` : ''}. Riprova.`);
       }
     } finally {
       setSubmitting(false);
